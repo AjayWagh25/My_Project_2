@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 992px) and (max-width: 1200px) {  
+
+
+}
+
+/* width: 991px; */
+
+@media screen and (max-width: 61.938em) {
+.footer .footer-contact{display: block;}
+.footer .footer-links{display: block;}
+.footer .footer-links .quick-links1 ul li{display: block; width: 100%;}
+.footer .copy-right{display: block;}
+.title-black-left h2{font-size: 23px; line-height: 35px; letter-spacing: 0.5px;}
+.title-black-left span{font-size: 14px; height: 42px;}
+.title-black-center h2{font-size: 23px; line-height: 35px; letter-spacing: 0.5px;}
+.title-black-center span{font-size: 14px; height: 42px;}
+.cust-test-home .left-section{width: 100%;}
+.cust-test-home .left-section ul li{width: 44%;}
+.cust-test-home .right-section{width: 100%;}
+.cust-test-home{display: block;}
+.home-abt{display: block;}
+.home-abt .left-section{width: 100%;}
+.home-abt .right-section{width: 100%; padding: 0px 20px 0px 20px}
+.home-abt .left-section{ width:100%;}
+.home-abt .left-section .counter{ width:100%; position:relative; bottom:0; margin-top:20px; right:0px;}
+.home-abt .left-section .counter ul li{ display:block; width:100%;border-bottom:1px solid #d0d0d0;}
+.desktop-banners{display: none;}
+.mob-banners{display: block;}
+.header-top{display: none;}
+.brand img{width: 315px;}
+.breadcrumb-section{padding: 30px 0px;}
+.breadcrumb-section h1{font-size: 20px;}
+.career-details .top-title-pane{display: block;}
+.career-details .top-title-pane h3{margin-bottom: 15px;}
+.career-details .content-details .first-pane{display: block;}
+.career-details .content-details .first-pane p{margin-bottom: 10px;}
+nav{border: none;}
+.header-item-left { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-flex: 0; -ms-flex: 0 0 75%; flex: 0 0 75%}
+.why-rent .why-rent-iconsec{ display: block; }
+.why-choose-mngt 
+ .why-rent-iconsec{ display: block; }
+ .deployment-option .maindiv{display: block;}
+ .It-infra-img-section .solutions-box-items {position: relative; margin-bottom: 160px;}
+ .It-infra-img-section .solutions-box-items .solution-thumb .solution-content { bottom: -330px; left: 30px; width: 84%;}
+
+
+}
+/*============	Media 900Px Start ============ */
+@media screen  and (max-width: 900px) {
+    .nav-list {position: fixed; top: 75px; left: 0; height: 100vh; flex-direction: column; background-color: #7869e5; z-index: 1000; align-items: initial; display: none; overflow-y: scroll; width: 100%; text-align: left;}
+    .nav-list > li {line-height: 3.125rem; border-bottom: 1px solid #8478d7;}
+    .nav-list a{color: #ffffff;}
+    .nav-list a:hover {color: #aca2f3;}
+    .sub-menu {position: initial; border: 3px solid transparent; margin-left: 1rem; max-height: 0; background: rgba(0, 0, 0, 0.5); overflow: hidden; margin-right: 0.4rem; padding-right: 1rem;-webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .08); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .08);}
+    .sub-menu .sub-menu {border: none; overflow: hidden; margin-right: 0.4rem;}
+    .sub-menu::before {display: none;}
+    .nav-list li:hover > .sub-menu {opacity: 1; visibility: visible; max-height: initial; background: #8e80f3;}
+    .menu-icons {display: block;}
+    .fa-times {display: none;}
+    nav.active .fa-times {display: block;}
+    nav.active .fa-bars {display: none;}
+    nav.active .nav-list {display: flex;}
+    .nav-list a i.fa{position: absolute; right: 15px; top: 20px;}
+}
+
+/*============	Media 768Px Start ============ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+
+
+}
+
+@media (min-width: 768px) {
+
+
+
+}
+
+
+
+/*============ Media 300Px Star ============ */
+
+@media (max-width: 480px) {
+
+
+
+}
+
+/*============ Media 320Px Start ============ */
+
+@media (max-width: 320px) {
+
+}

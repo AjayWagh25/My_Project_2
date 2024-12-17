@@ -1,0 +1,8 @@
+.productslist{margin-bottom: 62px;}
+.productslist .productcard{width: 100%; position: relative; border: 1px solid #e8e8e8; margin-bottom: 30px;}
+.productslist .productcard .productmain{padding: 8px;}
+.productslist .productcard .producttitle{border-top: 1px solid #e8e8e8; padding: 22px 8px;}
+.productslist .productcard .producttitle a{font-size: 1rem; color: #7768e5; font-weight: 700; }
+.productslist .productcard .producttitle a:hover{color: blue;}
+.productslist .productcard .producttitle .productbutton{padding-top: 16px;}
+.productslist .productcard .producttitle .productbutton button{border-radius: 50px; font-size: 12px; padding: 7px; background-color: #e8e8e8; outline: none; border: 1px solid #d5d5d5;}
